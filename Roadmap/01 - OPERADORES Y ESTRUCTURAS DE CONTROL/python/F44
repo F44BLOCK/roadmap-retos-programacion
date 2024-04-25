@@ -1,0 +1,87 @@
+"""
+operadores 
+"""
+
+#operadores aritméticos
+print(f"suma : 10 + 3 = {10 + 3 }¨)
+print(f¨resta: 10 - 3 = {10-3}")
+print(f"multiplicación : 10 x 3 = {10 x 3}")
+print(f"división : 10/3 = {10 / 3 }")
+print (f"modulo: 10 % 3 = {10 % 3 }")
+print(f"exponente : 10 * 3 = {10 * 3 }")
+print(f"division_entera : 10 // 3 ={10 // 3 }")
+
+
+#operadores de comparación 
+
+print(f"igual : 5 == 5 ={ 5==5}")
+print(f"no igual: 5!= ={5 = 3 }")
+print(f"mayor que : 8>10={8>10}")
+print(f"menor que : 4<6={4<6}")
+print(f"mayor _igual que : 9>= 10 {9<10=}")
+print(f"menor_igual que : 7<=7 {7<=7}")
+
+#operadores lógicos 
+
+print("AND && : 10+3 == 13 and 5-1==4 {10 + 3 == 13 and 5-1 == 4 }")
+print("OR !!: 10+3 == 13 or 5-1==4 {10 + 3 == 13 and 5-1 == 4 }")
+print("NOT !: 10+3 == 14 es {not 10 + 3 == 14 }")
+
+#operadores de asignación
+my_number = 11
+print(my_number)
+my_number+=1 suma y asignación
+print(my_number)
+my_number -=1 resta y asignación
+print(my_number)
+my_number*=2 multiplicación y asignación
+print(my_number)
+my_number /=2 división y asignación
+print(my_number)
+my_number %=2  módulo y asignación
+print(my_number)
+my_number /=1 división y asignación
+print(my_number)
+my_number /=1 división y asignación
+print(my_number)
+my_number **=1 exponente y asignación
+print(my_number)
+my_number //=1 división entera y asignación
+
+#operadores de identidad 
+my_new_number = 1.0 
+print(f"my_number is my_new_number es {my_number is my_new_number}")
+print(f"my_number is my_new_number es {my_number is my_new_number}")
+
+#operadores de pertenencia 
+
+print(f" a´ in ´david´ = {´a´ in ´david´}")
+print(f" b´ in ´david´ = {´b´ in ´david´}")
+
+#operadores de BIT 
+
+a= 10 #1010
+b = 3 #0011
+print("AND : 10 & 3 = {10 & 3 }")0010
+
+"""
+ESTRUCTURA DE CONTROL 
+"""
+
+my_string = "f44"
+if my_string == "f44"
+print("MY_STRING es "f44?´"
+elif my_string == "brais´"
+else
+print("my_string no es 'F44 '" ni 'brais'")
+
+
+interativas 
+
+for in in range (11)
+print (i)
+i = 0
+while i <=10:
+print(i)
+i +=1
+
