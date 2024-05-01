@@ -1,0 +1,124 @@
+
+#simple 
+
+def greet ():
+print("hola mundo")
+greet()
+
+
+#con retorno 
+def return_greet():
+return"hola, mundo)
+
+greet= return_greet())
+
+# con argumentos 
+
+def arg_greet(name)
+print(f"hola, {name}!")
+
+arg_greet("f44")
+
+def arg_greet(greet , name )
+print(f"greet"hola mundo", {name"F44"}!")
+
+args_greet("hi , "f44")
+
+#con argumento predeterminado 
+def default_arg_greet(name="f44"):
+print(f"hola, {mundo}!")
+
+default_arg_greet("f44")
+default_arg_greet()
+
+#con argumento y retorno
+
+def return_args_greet(greet, name):
+return f{"(greet} , {name}!"
+
+print(return_args_greet("Hi ", "f44"
+
+
+#con retorno de varios valores 
+
+def multiple_args_greet():
+return"hola,  mundo"
+
+greet,name=multiole_return_greet
+print(greet)
+print (name)
+
+
+#con un número variable de argumentos 
+
+def variable_arg_greet(*name):
+for name in names :
+print(f"hola , {name}!")
+
+variable_arg_greet("hola , mundo", "f44" , "bitcoin")
+
+#con un número de argumentos con palabra clave 
+
+
+def variable_arg_greet(**name):
+for param, name in names :
+print(f"hola , {name}!")
+
+variable_key_arg_greet(
+lenguaje="hola , mundo" ,
+name"F44" , 
+alias" 150k"
+)
+
+
+"""
+funciones de funciones
+"""
+
+def outer_function():
+def inner_function():
+print("función interna: hola , mundo !")
+inner_function()
+
+outer_function()
+"""
+funciones del lenguaje (built-in)
+""
+print(len("hola mundo"))
+print(type(36))
+
+print("hola mundo".upper)))
+
+"""
+variables locales y globales 
+"""
+
+global_variable = "hola mundo "
+
+print(global_var)
+
+def hello_python()
+print(f"hola mundo, {global_var}!")
+
+print(global var )
+
+"""
+extra
+"""
+defprint_numbers(text_1,text_2) int:
+count= o
+for number in range(1 al 101):
+if number %3==0 and number % 5==0:
+print(text_1 + text_2)
+elif number %3==0:
+print(text_1)
+elif number %5==0:
+else: 
+print(number)
+cont += 1 
+return count
+
+print (print_number("texto_1,texto_2")
+
+
+
